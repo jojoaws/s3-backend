@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "cloud-mastery-tfstate-bucket-677920913262"
+  bucket = "cloud-mastery-tfstate-bucket-005008919446"
 
   tags = {
     Name = "Terraform State Bucket"
